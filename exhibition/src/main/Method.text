@@ -1,0 +1,29 @@
+폴더&페키지=메인
+	index=메인화면
+	I_header = 메인의 헤더부분
+폴더&페키지=회원가입(개임)
+	writeForm = 회원가입
+폴더&페키지=사업자가입(사업자)
+	companyForm = 사업자가입
+폴더&페키지=로그인
+	loginForm = 로그인       
+폴더&페키지=고객센터
+	costomerServiceForm = 고객센터
+폴더&페키지=교통
+	trafficForm = 교통
+폴더&페키지=임대
+	rentalForm = 시설/임대
+폴더&페키지=연혁
+	introductionForm = 소개
+폴더&페키지=공연&일정
+	performanceForm = 공연&일정
+
+별개 설정파일
+자바 = 패키지
+	com=데이터 소스
+웹 = 폴더
+	js=자바스크립
+   
+
+
+controller

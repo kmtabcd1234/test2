@@ -1,0 +1,30 @@
+$(document).ready(function(){
+	$('#info').hide();
+	$('#M_member').click(function(){
+		$('#info').slideToggle();
+	});
+	$('#M_individual').click(function(){
+		location.href="/exhibition/member/writeForm.do";
+	});
+	$('#C_company').click(function(){
+		location.href="/exhibition/company/writeForm.do";
+	});
+	$('#L_login').click(function(){
+		location.href="/exhibition/login/loginForm.do";
+	});
+	$('#P_performance').click(function(){
+		location.href="/exhibition/performance/performanceForm.do";
+	});
+	$('#R_rental').click(function(){
+		location.href="/exhibition/rental/rentalForm.do";
+	});
+	$('#T_traffic').click(function(){
+		location.href="/exhibition/traffic/trafficForm.do";
+	});
+	$('#S_costomerService').click(function(){
+		location.href="/exhibition/costomerService/costomerServiceForm.do";
+	});
+	$('#IF_introduction').click(function(){
+		location.href="/exhibition/introduction/introductionForm.do";
+	});
+});

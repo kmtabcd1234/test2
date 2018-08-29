@@ -1,0 +1,8 @@
+------------------------------------------------DB------------------------------------------------------------
+//개인회원 DB
+create table memberTable(	
+name varchar2(30) not null,	    --이름
+M_Id varchar2(30) primary key,  --아이디 (기본키, unique, not null, 무결성 제약 조건)
+M_Pwd varchar2(30) not null,    --비밀번호
+M_Email varchar2(50),           --이메일		
+M_Phone varchar2(15));	        --핸드폰
